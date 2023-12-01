@@ -9,13 +9,15 @@ The task involves installing and configuring HAproxy on the LBR (Load Balancer) 
 3. I Opened the HAproxy configuration file: `sudo vi /etc/haproxy/haproxy.cfg`.
 4. I added the following lines to the configuration file to set up load balancing:
 
+```haproxy
 frontend main
     bind *:80
     acl url_static       path_beg       -i /static /images /javascript /stylesheets
     acl url_static       path_end       -i .jpg .gif .png .css .js
-    
+
     use_backend static          if url_static
     default_backend             app
+
 backend app
     balance     roundrobin
     server  stapp01 172.16.238.10:8084 check
