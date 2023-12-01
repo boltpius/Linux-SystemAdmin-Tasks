@@ -17,12 +17,12 @@ frontend main
 
     use_backend static          if url_static
     default_backend             app
-
 backend app
     balance     roundrobin
     server  stapp01 172.16.238.10:8084 check
     server  stapp02 172.16.238.11:8084 check
     server  stapp03 172.16.238.12:8084 check
+    
 5. I validated the file to see if there are any errors: haproxy -c -f /etc/haproxy/haproxy.cfg
 6. I enabled and restarted haproxy using the commands: sudo systemctl enable haproxy && sudo systemctl restart haproxy
 7. I confirmed if the site was reachable using curl and checking it in a browser. 
