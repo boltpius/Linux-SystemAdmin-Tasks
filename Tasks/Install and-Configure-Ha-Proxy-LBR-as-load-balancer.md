@@ -23,6 +23,7 @@ backend app
     server  stapp01 172.16.238.10:8084 check
     server  stapp02 172.16.238.11:8084 check
     server  stapp03 172.16.238.12:8084 check
+```
 
 5.	Validate the file to see if there are any errors: haproxy -c -f /etc/haproxy/haproxy.cfg.
 6.	Enable HAProxy: sudo systemctl enable haproxy.
