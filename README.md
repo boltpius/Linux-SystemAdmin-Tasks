@@ -3,3 +3,5 @@
 * Task02 - [Linux  Apache Troubleshooting](./Tasks/Linux-Apache-Troubleshooting.md)
 * Task03 - [Linux GPG ENCRYPTION](./Tasks/Linux-GPG-ENCRYPTION.md)
 * Task04 - [Linux Maria DB Troubleshooting](./Tasks/Linux-Maria-DB-Troubleshooting.md)
+* Task05 - [DNS Troubleshooting](./Tasks/DNS-Troubleshooting.md)
+
