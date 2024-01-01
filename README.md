@@ -4,4 +4,4 @@
 * Task03 - [Linux GPG ENCRYPTION](./Tasks/Linux-GPG-ENCRYPTION.md)
 * Task04 - [Linux Maria DB Troubleshooting](./Tasks/Linux-Maria-DB-Troubleshooting.md)
 * Task05 - [DNS Troubleshooting](./Tasks/DNS-Troubleshooting.md)
-
+* Task06 - [Linux banner](./Tasks/Linux-banner.md)
