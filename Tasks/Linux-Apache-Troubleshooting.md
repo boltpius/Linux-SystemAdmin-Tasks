@@ -6,6 +6,7 @@ The task involved troubleshooting the Apache service on the Nautilus Application
 ### Steps Taken
 
 1. Checked the server's reachability by using the curl command.
+![image1](./images/haproxy1.png)
 
 
 2. Enabled and started the httpd service, which was not starting initially.
