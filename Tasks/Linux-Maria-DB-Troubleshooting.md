@@ -14,4 +14,4 @@ To resolve the issue, i used these steps:
 6. Verify that the mariadb service starts successfully and the Nautilus application can connect to the database.
 ![image1](./images/mariadb4.png)
 
-This solution successfully resolves the issue, and the Nautilus application is now functioning as expected.
+This solution successfully resolves the issue, and the Nautilus application is now functioning as expected. mariaDB (and MYSQL) always expects to find its data directory (where all databases, users and systems tables live) in which is the /var/liv/mysql, the startup failed because it couldnt locate the mysql system database ( which it needs to start). thats why the logs kept showing mariadb is down. 
